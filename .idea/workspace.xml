@@ -2,10 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Programacion3" targetName="codingProyect" />
+      <config projectName="Programacion3" targetName="intento2" />
       <config projectName="Programacion3" targetName="untitled2" />
       <config projectName="Programacion3" targetName="untitled3" />
-      <config projectName="Programacion3" targetName="intento2" />
+      <config projectName="Programacion3" targetName="codingProyect" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -15,13 +15,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae9e5d5-66c4-4d03-912b-95f7a7ddb4ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/intento2/par.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/intento2.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/intento2.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/IntentoDePrograma/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/IntentoDePrograma/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/IntentoDePrograma/CMakeFiles/codingProyect.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/IntentoDePrograma/CMakeFiles/codingProyect.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/IntentoDePrograma/CMakeFiles/codingProyect.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/IntentoDePrograma/CMakeFiles/codingProyect.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/IntentoDePrograma/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/IntentoDePrograma/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/IntentoDePrograma/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/IntentoDePrograma/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/IntentoDePrograma/codingProyect.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/IntentoDePrograma/codingProyect.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Programacion3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Programacion3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/intento2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/intento2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/intento2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/intento2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/intento2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/intento2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/intento2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/intento2.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/intento2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/intento2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/intento2/CMakeFiles/intento2.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/intento2/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intento2/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/intento2/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intento2/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/intento2/intento2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intento2/intento2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intento2/ArbolBinario.h" beforeDir="false" afterPath="$PROJECT_DIR$/intento2/ArbolBinario.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intento2/ArbolBinarioCod.h" beforeDir="false" afterPath="$PROJECT_DIR$/intento2/ArbolBinarioCod.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intento2/NodoArbol.h" beforeDir="false" afterPath="$PROJECT_DIR$/intento2/NodoArbol.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intento2/diccionario.txt" beforeDir="false" afterPath="$PROJECT_DIR$/intento2/diccionario.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/intento2/intento2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/intento2/intento2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled2/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled2/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled2/CMakeFiles/untitled2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled2/CMakeFiles/untitled2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled2/CMakeFiles/untitled2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled2/CMakeFiles/untitled2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled2/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled2/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled2/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled2/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled2/untitled2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled2/untitled2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled3/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled3/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled3/CMakeFiles/untitled3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled3/CMakeFiles/untitled3.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled3/CMakeFiles/untitled3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled3/CMakeFiles/untitled3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled3/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled3/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled3/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled3/untitled3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled3/untitled3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intento2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/intento2/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intento2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/intento2/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -30,52 +74,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/IntentoDePrograma/main.cpp">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="195">
-                    <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
-                    <folding>
-                      <element signature="e#0#19#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/IntentoDePrograma/ArbolBinarioCod.h">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="120">
-                    <caret line="8" selection-start-line="8" selection-end-line="8" />
-                    <folding>
-                      <element signature="e#75#97#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/IntentoDePrograma/NodoArbol.h">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="780">
-                    <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-                    <folding>
-                      <element signature="e#77#95#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
@@ -125,14 +123,37 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
     </session>
+    <session id="-445838278">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="499" />
+          <entry key="h" value="163" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="662" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="h" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/intento2/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="134" column="10" selection-start-line="134" selection-start-column="10" selection-end-line="134" selection-end-column="10" />
+            <state relative-caret-position="269">
+              <caret line="184" column="34" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="34" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#261#278#0" expanded="true" />
@@ -142,24 +163,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="mock:///intento2 (disassembly)">
+        <entry file="file://$PROJECT_DIR$/intento2/par.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/intento2/salida.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/intento2/diccionario.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="370">
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+              <folding>
+                <element signature="e#40#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/intento2/NodoArbol.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2085">
-              <caret line="139" column="3" selection-start-line="139" selection-start-column="3" selection-end-line="139" selection-end-column="3" />
+            <state relative-caret-position="184">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="e#78#87#0" expanded="true" />
               </folding>
@@ -176,11 +186,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/intento2/ArbolBinario.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="89" column="41" lean-forward="true" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
+            <state relative-caret-position="184">
+              <caret line="208" column="4" selection-start-line="208" selection-start-column="4" selection-end-line="208" selection-end-column="4" />
               <folding>
                 <element signature="e#76#98#0" expanded="true" />
                 <element signature="e#150#159#0" expanded="true" />
@@ -226,12 +236,13 @@
         <option value="$PROJECT_DIR$/intento2/Nodo.h" />
         <option value="$PROJECT_DIR$/intento2/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/intento2/ArbolBinarioDesc.h" />
-        <option value="$PROJECT_DIR$/IntentoDePrograma/main.cpp" />
         <option value="$PROJECT_DIR$/intento2/ArbolBinarioCod.h" />
         <option value="$PROJECT_DIR$/intento2/NodoArbol.h" />
-        <option value="$PROJECT_DIR$/intento2/ArbolBinario.h" />
         <option value="$PROJECT_DIR$/intento2/diccionario.txt" />
         <option value="$PROJECT_DIR$/cmake-build-debug/intento2/salida.txt" />
+        <option value="$PROJECT_DIR$/IntentoDePrograma/main.cpp" />
+        <option value="$PROJECT_DIR$/intento2/ArbolBinario.h" />
+        <option value="$PROJECT_DIR$/intento2/par.h" />
         <option value="$PROJECT_DIR$/intento2/main.cpp" />
       </list>
     </option>
@@ -253,7 +264,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,23 +274,18 @@
             <path>
               <item name="Programacion3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto_X" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Programacion3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto_X" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
               <item name="intento2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Programacion3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proyecto_X" type="462c0819:PsiDirectoryNode" />
-              <item name="intento2" type="462c0819:PsiDirectoryNode" />
+              <item name="IntentoDePrograma" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,18 +307,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.intento2">
+  <component name="RunManager" selected="Application.Proy Decodificar">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="codingProyect" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programacion3" TARGET_NAME="codingProyect" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programacion3" RUN_TARGET_NAME="codingProyect">
+    <configuration name="Proy Codificar" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-c -l diccionario.txt -i entrada.txt -o salida.txt" WORKING_DIR="file://$PROJECT_DIR$/intento2" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programacion3" TARGET_NAME="intento2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programacion3" RUN_TARGET_NAME="intento2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="intento2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programacion3" TARGET_NAME="intento2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programacion3" RUN_TARGET_NAME="intento2">
+    <configuration name="Proy Decodificar" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-d -l diccionario.txt -i salida.txt -o deco.txt" WORKING_DIR="file://$PROJECT_DIR$/intento2" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programacion3" TARGET_NAME="intento2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programacion3" RUN_TARGET_NAME="intento2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="codingProyect" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Programacion3" TARGET_NAME="codingProyect" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Programacion3" RUN_TARGET_NAME="codingProyect">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -330,7 +340,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.intento2" />
+      <item itemvalue="Application.Proy Codificar" />
+      <item itemvalue="Application.Proy Decodificar" />
       <item itemvalue="Application.codingProyect" />
       <item itemvalue="Application.untitled2" />
       <item itemvalue="Application.untitled3" />
@@ -356,28 +367,28 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39975000" />
+    <option name="totallyTimeSpent" value="41635000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="25" width="1865" height="1055" extended-state="6" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26168224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26495728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41394335" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32930845" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41383097" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32897604" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1949891" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.194292" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32897604" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32821077" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -411,6 +422,22 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/intento2/main.cpp</url>
+          <line>65</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="dic" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
@@ -453,9 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#170#192#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -483,21 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6816">
           <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-          <folding>
-            <element signature="e#154#176#0" expanded="true" />
-            <element signature="e#246#252#0" expanded="true" />
-            <element signature="e#1931#1949#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intento2/NodoArbol.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="139" column="3" selection-start-line="139" selection-start-column="3" selection-end-line="139" selection-end-column="3" />
-          <folding>
-            <element signature="e#78#87#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,21 +530,10 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/intento2/salida.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/intento2/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="134" column="10" selection-start-line="134" selection-start-column="10" selection-end-line="134" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#261#278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/intento2/ArbolBinario.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="89" column="41" lean-forward="true" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
+        <state relative-caret-position="184">
+          <caret line="208" column="4" selection-start-line="208" selection-start-column="4" selection-end-line="208" selection-end-column="4" />
           <folding>
             <element signature="e#76#98#0" expanded="true" />
             <element signature="e#150#159#0" expanded="true" />
@@ -555,6 +553,37 @@
             <element signature="e#4049#4058#0" expanded="true" />
             <element signature="e#4156#4165#0" expanded="true" />
             <element signature="e#4428#4437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intento2/NodoArbol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#78#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intento2/par.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding>
+            <element signature="e#40#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intento2/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="184" column="34" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#261#278#0" expanded="true" />
           </folding>
         </state>
       </provider>

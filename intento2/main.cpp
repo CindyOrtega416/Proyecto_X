@@ -4,6 +4,7 @@
 #include <string>
 #include <bits/stdc++.h>
 #include "ArbolBinario.h"
+#include "par.h"
 //#include "ArbolBinarioCod.h"
 //#include "ArbolBinarioDesc.h"
 #include <cctype>
@@ -13,14 +14,16 @@
 
 using namespace std;
 
-void encode(string in, string dic, string out,int option);
+void encode(string in, string dic, string out, int option);
+
 void decode(string arc, string dic, string imp);
 
 //void arbolencode(string out);
 //void arboldecode(string out);
 
-void creararbol(string diccionario,int option);
-ArbolBinario <string> dic; //arbol binario del dicionario
+void creararbol(string diccionario, int option);
+
+ArbolBinario<Par> dic; //arbol binario del dicionario
 void split(string cut);
 
 //void splitAndPut(string cut);
@@ -38,7 +41,44 @@ ArbolBinarioCod<T, K> aCod;
 //ArbolBinarioDesc<T, K> aDesc;
 
 
-int main() {
+int main(int argc, char *args[]) {
+
+    for (int i = 0; i < argc; i++) {
+        cout << i << args[i] << endl;
+    }
+
+
+    if(args[1][1] == 'c')
+        cout << "codifico";
+    else
+    if(args[1][1] == 'd')
+        cout << "decodifico";
+    else
+        cout << "error";
+
+
+    cout << endl << args[3];
+
+    Par pp("hola", "chau");
+    dic.put(pp);
+
+
+    Par abuscar("hola", "");
+
+    string res = dic.search(abuscar).getTraduccion();
+
+    cout << endl << res;
+    exit(0);
+
+
+    // args[3]   archivo de diccionario
+    // args[5]   archivo de entrada
+    // args[7]   archivo de salida.
+
+    // 1
+    // Cargar diccionario
+
+
 
 //    int i;
 //    int dato;
@@ -56,39 +96,44 @@ int main() {
 
 
 
-    while (!foo){
-        cout << "direccion del archivo de entrada /home/facu/CLionProjects/Proyecto_X/intento2/entrada.txt   --esto cambialo por la ubicacion del archivo en tu compu"<<endl;
-        cout << "direccion del archivo de salida  /home/facu/CLionProjects/Proyecto_X/cmake-build-debug/intento2/salida.txt  --esto cambialo por la ubicacion del archivo en tu compu"<<endl;
-        cout << "direccion del archivo diccionario.txt /home/facu/CLionProjects/Proyecto_X/intento2/diccionario.txt"<<endl;
-        cout << "Elija una opcion:"<<endl;
-        cout << "Codificar -------------> 1"<<endl;
-        cout << "Decodificar -----------> 2"<<endl;
-        cout << "Salir -----------------> 3"<<endl;
+    while (!foo) {
+        cout
+                << "direccion del archivo de entrada /home/facu/CLionProjects/Proyecto_X/intento2/entrada.txt   --esto cambialo por la ubicacion del archivo en tu compu"
+                << endl;
+        cout
+                << "direccion del archivo de salida  /home/facu/CLionProjects/Proyecto_X/cmake-build-debug/intento2/salida.txt  --esto cambialo por la ubicacion del archivo en tu compu"
+                << endl;
+        cout << "direccion del archivo diccionario.txt /home/facu/CLionProjects/Proyecto_X/intento2/diccionario.txt"
+             << endl;
+        cout << "Elija una opcion:" << endl;
+        cout << "Codificar -------------> 1" << endl;
+        cout << "Decodificar -----------> 2" << endl;
+        cout << "Salir -----------------> 3" << endl;
 
         cin >> option;
 
         //deberia cambiar el menu por un if para asi utilizar las opciones de c y d como dice el proyecto?
 
-        switch (option){
+        switch (option) {
 
             case 1:
 
                 cout << "Ingrese ruta de archivo a codificar:" << endl;
-                cout << "/home/facu/CLionProjects/Proyecto_X/intento2/entrada.txt"<<endl;
+                cout << "/home/facu/CLionProjects/Proyecto_X/intento2/entrada.txt" << endl;
                 rutaA = "/home/facu/CLionProjects/Proyecto_X/intento2/entrada.txt"; //lo hago de forma automatica para ahorrar tiempo al codificar
                 //cin >> rutaA;
 
                 cout << "Ingrese ruta del diccionario:" << endl;
-                cout << "/home/facu/CLionProjects/Proyecto_X/intento2/diccionario.txt"<<endl;
+                cout << "/home/facu/CLionProjects/Proyecto_X/intento2/diccionario.txt" << endl;
                 rutaD = "/home/facu/CLionProjects/Proyecto_X/intento2/diccionario.txt"; //lo hago de forma automatica para ahorrar tiempo al codificar
                 //cin >> rutaD;
 
                 cout << "Ingrese ruta de archivo a imprimir:" << endl;
-                cout << "/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/intento2/salida.txt"<<endl;
+                cout << "/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/intento2/salida.txt" << endl;
                 rutaI = "/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/intento2/salida.txt";        //lo hago de forma automatica para ahorrar tiempo al codificar
                 //cin >> rutaI;
 
-                creararbol(rutaD,option);   //en esta funcion creo el arbol del diccionario
+                creararbol(rutaD, option);   //en esta funcion creo el arbol del diccionario
 
                 //verificar que la informacion sea correcta antes de llamar a la otra funcion?
                 encode(rutaA, rutaD, rutaI, option);
@@ -132,14 +177,14 @@ void splitAndPut(string cut) {
 }
 */
 
-void split(string cut){
+void split(string cut) {
 
     stringstream ss(cut);
     string item;
     char delim = '  ';
-    while(getline(ss,item,delim)){
-        dic.put(item);
-        cout<<"split "<<item<<endl;
+    while (getline(ss, item, delim)) {
+        //dic.put(item);
+        cout << "split " << item << endl;
     }
     //mando las palabras al arbol
 
@@ -151,20 +196,20 @@ void split(string cut){
 
 //funcion para crear el arbol del diccionario
 //el dato option me dice si debo crear el arbol de codificar o el de decodificar
-void creararbol(string diccionario,int option){
+void creararbol(string diccionario, int option) {
 
     string words;
 
     ifstream dictionary;
-    dictionary.open(diccionario,ios::in);//abrimos el archivo en modo lectura
+    dictionary.open(diccionario, ios::in);//abrimos el archivo en modo lectura
     //direccion del archivo diccionario.txt /home/facu/CLionProjects/Proyecto_X/intento2/diccionario.txt
-    if(dictionary.fail()){
+    if (dictionary.fail()) {
         cout << "No se pudo abrir el archivo de entrada";
         exit(1);
     }
 
-    while(!dictionary.eof()) { //mientras no sea final del archivo
-        getline(dictionary,words);
+    while (!dictionary.eof()) { //mientras no sea final del archivo
+        getline(dictionary, words);
 
         //cout<<"este es el getline del diccionario"<<endl;
         //el getline me devuelve cada par de palabras, por ej: "archivo	pepe" o "pepe	casa"
@@ -195,7 +240,7 @@ void creararbol(string diccionario,int option){
     dictionary.close();//cerramos el archivo
 
     //aca abajo muestro el arbol
-    cout << endl << "muestro el arbol por consola (preorder): "<<endl;
+    cout << endl << "muestro el arbol por consola (preorder): " << endl;
 
     dic.inorder();
 
@@ -204,11 +249,10 @@ void creararbol(string diccionario,int option){
 }
 
 
-
 //codificar
 //encode(rutaA, rutaD, rutaI);
 //(entrada,diccionario,salida)
-void encode(string in, string dic, string out,int option) {
+void encode(string in, string dic, string out, int option) {
 //    ifstream fileDic(dic);  //inicializamos diccionario
 //    ifstream diccionario;
 //    ifstream fileArc(in);  //              entrada
@@ -232,31 +276,30 @@ void encode(string in, string dic, string out,int option) {
 
 //estoy probando leer archivos
     ifstream entry;
-    entry.open(in,ios::in);//abrimos el archivo en modo lectura
+    entry.open(in, ios::in);//abrimos el archivo en modo lectura
     //direccion del archivo de entrada /home/facu/CLionProjects/proyecto/intento2/entrada.txt
-    if(entry.fail()){
+    if (entry.fail()) {
         cout << "No se pudo abrir el archivo de entrada";
         exit(1);
     }
 
-    while(!entry.eof()) { //mientras no sea final del archivo
-        getline(entry,words);
+    while (!entry.eof()) { //mientras no sea final del archivo
+        getline(entry, words);
 
         cout << "while de encode" << endl;
-        cout << words << endl;  //aca deberiamos buscar en el arbol cada palabra que vayamos sacando para escribirla en el archivo de salida a continuacion
+        cout << words
+             << endl;  //aca deberiamos buscar en el arbol cada palabra que vayamos sacando para escribirla en el archivo de salida a continuacion
         //funcion para buscar la palabra en el arbol y que me devuelva la palabra codificada
         //al agregar el texto en un archivo ya existente cada vez que entre al programa deberia de borrar lo que exista en el
     }
 
     //------------------------------------------------------------------------------------------------------------//escribir en el archivo de salida
-    salida(words,out);  //esta funcion es la que me escribe el archivo salida.txt
+    salida(words, out);  //esta funcion es la que me escribe el archivo salida.txt
     //salida (palabra,direccion del archivo)
 
     entry.close();//cerramos el archivo
 
 }
-
-
 
 
 //------------------------------------ decode funciona igual que code, solo que debo buscar al reves en el arbol o en otro arbol diferente
@@ -289,7 +332,8 @@ void decode(string in, string dic, string out) {
 
     while (!entry.eof()) { //mientras no sea final del archivo
         getline(entry, words);
-        cout << words << endl;  //aca deberiamos buscar en el arbol cada palabra que vayamos sacando para escribirla en el archivo de salida a continuacion
+        cout << words
+             << endl;  //aca deberiamos buscar en el arbol cada palabra que vayamos sacando para escribirla en el archivo de salida a continuacion
         //funcion para buscar la palabra en el arbol y que me devuelva la palabra codificada
         //al agregar el texto en un archivo ya existente cada vez que entre al programa deberia de borrar lo que exista en el
         //------------------------------------------------------------------------------------------------------------//escribir en el archivo de salida
@@ -312,7 +356,8 @@ void salida(string words, string out) {
     }
 
     salida << " ";    //pongo el espacio para separar las palabras o futuras frases a ingresar
-    salida << words; // le mando la palabra que me envia la llamada a la funcion      /DEBERIA sustituirla por la palabra ya codificada
+    salida
+            << words; // le mando la palabra que me envia la llamada a la funcion      /DEBERIA sustituirla por la palabra ya codificada
     salida.close();//cerramos el archivo
 
 
