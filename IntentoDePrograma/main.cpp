@@ -109,7 +109,6 @@ void encode(string arc, string dic, string imp) {
             fileImp << word + " ";
         }
 
-
         /* string foo = aCod<string, string>.BuscarK(word);
         if (foo != nullptr){
             fileImp << foo + " ";
@@ -122,6 +121,7 @@ void encode(string arc, string dic, string imp) {
     fileDic.close();
     fileImp.close();
 }
+
 
 void splitAndPut(string cut, bool cod) {
     // Used to split string around spaces.
@@ -146,7 +146,8 @@ void splitAndPut(string cut, bool cod) {
 
     cout << word[0]  << endl; // desc
     cout << word[1]  << endl; // cod
-}
+
+ }
 
 void decode(string arc, string dic, string imp) {
     ifstream fileDic(dic);

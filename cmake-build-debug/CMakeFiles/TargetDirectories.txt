@@ -1,0 +1,14 @@
+/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/untitled2/CMakeFiles/rebuild_cache.dir
+/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/untitled2/CMakeFiles/edit_cache.dir
+/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/untitled2/CMakeFiles/untitled2.dir
+/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/untitled3/CMakeFiles/rebuild_cache.dir
+/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/untitled3/CMakeFiles/edit_cache.dir
+/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/untitled3/CMakeFiles/untitled3.dir
+/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/IntentoDePrograma/CMakeFiles/edit_cache.dir
+/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/IntentoDePrograma/CMakeFiles/rebuild_cache.dir
+/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/IntentoDePrograma/CMakeFiles/codingProyect.dir
+/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/intento2/CMakeFiles/rebuild_cache.dir
+/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/intento2/CMakeFiles/edit_cache.dir
+/home/facu/CLionProjects/Proyecto_X/cmake-build-debug/intento2/CMakeFiles/intento2.dir

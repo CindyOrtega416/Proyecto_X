@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/codingProyect.dir/main.cpp.o  -o codingProyect 
